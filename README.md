@@ -13,7 +13,7 @@ Este proyecto implementa un sistema distribuido que permite:
 
 ## Arquitectura
 
-![Architecture Diagram](diagrams/architecture.png)
+
 
 
 ### Componentes:
