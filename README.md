@@ -15,6 +15,7 @@ Este proyecto implementa un sistema distribuido que permite:
 
 ![Architecture Diagram](diagrams/architecture.png)
 
+
 ### Componentes:
 
 1. **Clientes**: Aplicaciones que envían tareas al sistema
@@ -230,7 +231,7 @@ pytest tests/
 ## Estructura del Proyecto
 
 ```
-pfo3-distributed-system/
+PFO3_Redes_Com_E_Romina_Zagordo/
 ├── server.py              # Servidor worker con pool de hilos
 ├── client.py              # Cliente para enviar tareas
 ├── rabbitmq_handler.py    # Manejo de cola de mensajes
@@ -239,9 +240,8 @@ pfo3-distributed-system/
 ├── diagrams/
 │   └── architecture.png  # Diagrama de arquitectura
 ├── tests/
-│   ├── test_server.py
-│   └── test_client.py
-└── .env.example          # Variables de entorno de ejemplo
+│   ├── integration_test.py
+
 ```
 
 ## Autor
